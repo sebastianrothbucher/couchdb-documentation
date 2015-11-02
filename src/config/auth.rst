@@ -310,12 +310,14 @@ Authentication Configuration
 
 .. _config/couch_httpd_oauth:
 
-HTTP OAuth Configuration
+HTTP OAuth Configuration 
 ========================
 
 .. config:section:: couch_httpd_oauth :: HTTP OAuth Configuration
 
   .. versionadded:: 1.2
+
+  .. versionremoved:: 2.0
 
   .. config:option:: use_users_db
 
